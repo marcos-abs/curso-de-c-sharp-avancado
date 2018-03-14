@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Lib\Foto.cs" />
     <Compile Include="Lib\FotoFiltro.cs" />
-    <Compile Include="Lib\Processador.cs" />
+    <Compile Include="Lib\FotoProcessador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
