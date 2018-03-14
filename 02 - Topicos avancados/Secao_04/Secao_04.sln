@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Linq_Obj", "03_Linq_Obj\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Linq_Join", "04_Linq_Join\04_Linq_Join.csproj", "{7D2F420B-BB7E-4DE9-89EE-1228EAA41860}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Linq_Group", "05_Linq_Group\05_Linq_Group.csproj", "{F6377203-F639-4FCA-8C14-81561DD04C4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7D2F420B-BB7E-4DE9-89EE-1228EAA41860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2F420B-BB7E-4DE9-89EE-1228EAA41860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2F420B-BB7E-4DE9-89EE-1228EAA41860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6377203-F639-4FCA-8C14-81561DD04C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6377203-F639-4FCA-8C14-81561DD04C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6377203-F639-4FCA-8C14-81561DD04C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6377203-F639-4FCA-8C14-81561DD04C4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
