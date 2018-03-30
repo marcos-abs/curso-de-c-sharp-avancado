@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D68B06EC-9FDF-4C35-9621-5993F99E97F7}</ProjectGuid>
+    <ProjectGuid>{CFBC668F-448E-4B2C-B4FA-1813D191ACB7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03_ThreadBackground</RootNamespace>
-    <AssemblyName>03_ThreadBackground</AssemblyName>
+    <RootNamespace>_04_ThreadSafe</RootNamespace>
+    <AssemblyName>04_ThreadSafe</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
