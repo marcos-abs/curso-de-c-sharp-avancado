@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace _03_Eventos.Lib.Mensageiro {
     public class Email {
-        public void EnviarMensagem(Video video) {
-            Console.WriteLine("Email enviado para o video: " + video.Nome);
+
+        public void EnviarMensagem(object sender, VideoEventArgs args) {
+            Console.WriteLine("Email enviado para o video: " + args.Video.Nome);
         }
     }
 }
