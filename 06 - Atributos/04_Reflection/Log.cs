@@ -7,6 +7,21 @@ using _04_Reflection.Modelo;
 
 namespace _04_Reflection {
     class Log {
+        public static List<Object> objetos = new List<object>();
+
+        public static void Gravar(object obj) {
+            objetos.Add(obj);
+        }
+
+        public static void ApresentarLog() {
+            foreach (object obj in objetos) {
+                Console.WriteLine("----------- Nome Classe: {0} ----------", obj.GetType().Name);
+                foreach(var prop in obj.GetType().GetProperties()) {
+                    Console.WriteLine(prop.Name + ":" + prop.GetValue(obj));
+                }
+            }
+        }
+        /*
         public static List<Usuario> usuarios = new List<Usuario>();
 
         public static void GravarUsuario(Usuario usuario) {
@@ -28,5 +43,6 @@ namespace _04_Reflection {
                 Console.WriteLine("Marca: {0}, Modelo: {1};", carro.Marca, carro.Modelo);
             }
         }
+        */
     }
 }
