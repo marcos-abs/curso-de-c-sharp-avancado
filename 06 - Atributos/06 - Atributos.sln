@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Atributo", "01_Atributo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Validacao", "02_Validacao\02_Validacao.csproj", "{2158F1FC-5844-479D-BEBB-7F08FD61CC40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ValidacaoCustomizada", "03_ValidacaoCustomizada\03_ValidacaoCustomizada.csproj", "{34F5E019-CDE0-43A0-BEFF-7046F442F876}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2158F1FC-5844-479D-BEBB-7F08FD61CC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2158F1FC-5844-479D-BEBB-7F08FD61CC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2158F1FC-5844-479D-BEBB-7F08FD61CC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F5E019-CDE0-43A0-BEFF-7046F442F876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F5E019-CDE0-43A0-BEFF-7046F442F876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F5E019-CDE0-43A0-BEFF-7046F442F876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F5E019-CDE0-43A0-BEFF-7046F442F876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
